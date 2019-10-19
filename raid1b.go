@@ -22,7 +22,7 @@ func Raid1a(x, y int) {
 			for x1 := 0; x1 < x; x1++ {
 				if x1 == 0 && y1 == 0 || x1 == x2 && y1 == y2 && x != 1 {
 					z01.PrintRune('/')
-				}  else if x1 == x2 && y1 == 0 || x1 == 0 && y1 == y2 {
+				} else if x1 == x2 && y1 == 0 || x1 == 0 && y1 == y2 {
 					z01.PrintRune(92)
 				} else {
 					z01.PrintRune('*')
