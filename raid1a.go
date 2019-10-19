@@ -17,7 +17,7 @@ func Raid1a(x, y int) {
 			z01.PrintRune(10)
 		} else {
 			for x1 := 0; x1 < x; x1++ {
-				if   x1 == 0 ||  x1 == x2 {
+				if x1 == 0 || x1 == x2 {
 					z01.PrintRune('o')
 				} else {
 					z01.PrintRune('-')
