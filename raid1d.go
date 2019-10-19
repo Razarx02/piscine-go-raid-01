@@ -2,7 +2,6 @@ package student
 
 import "github.com/01-edu/z01"
 
-
 func Raid1d(x, y int) {
 	if x < 0 || y < 0 {
 		return
