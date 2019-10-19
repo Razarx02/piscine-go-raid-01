@@ -3,8 +3,7 @@ package student
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
-	if x < 0 || y < 0 {
-	} else {
+	if x > 0 && y > 0 {
 		for yc := 0; yc < y; yc++ {
 			for xc := 0; xc < x; xc++ {
 				if xc == 0 || xc == x-1 {
